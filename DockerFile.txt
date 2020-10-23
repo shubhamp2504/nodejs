@@ -1,0 +1,7 @@
+FROM node:7
+WORKDIR / validate
+COPY package.json /validate
+RUN npm install
+COPY ./validate
+CMD node validate.js
+EXPOSE 8080

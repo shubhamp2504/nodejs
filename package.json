@@ -1,0 +1,15 @@
+{
+  "name": "practice",
+  "version": "1.0.0",
+  "description": "practice npm",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "shubham pathak",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.5",
+    "validator": "^13.1.17"
+  }
+}
